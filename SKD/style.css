@@ -1,0 +1,50 @@
+/* Style untuk judul halaman */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style untuk form */
+form {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Style untuk label dan textarea */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+/* Style untuk tombol Encrypt dan Decrypt */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style untuk hasil enkripsi dan dekripsi */
+textarea[readonly] {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
